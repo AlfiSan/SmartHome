@@ -1,8 +1,15 @@
 {
+<<<<<<< Updated upstream
     "HEAD": "w7ccf339cbd44d9c97c7a3606f3b915d",
     "w7ccf339cbd44d9c97c7a3606f3b915d": {
         "children": [],
         "kuid": "w7ccf339cbd44d9c97c7a3606f3b915d",
+=======
+    "HEAD": "w472fba9156c4331b9fa1724c119815d",
+    "w472fba9156c4331b9fa1724c119815d": {
+        "children": [],
+        "kuid": "w472fba9156c4331b9fa1724c119815d",
+>>>>>>> Stashed changes
         "name": "localfiles",
         "type": "L"
     }
