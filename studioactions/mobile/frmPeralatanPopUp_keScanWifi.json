@@ -1,0 +1,29 @@
+{
+    "AS_Button_b42f87f3ad1142b2885053a4ac100aa6": {
+        "id": "AS_Button_b42f87f3ad1142b2885053a4ac100aa6",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmPeralatanPopUp_keScanWifi",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPeralatanPopUp",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f0684e641cfd457da003dff9130b7056"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___d4e961243a8848eea3708937fcf05983",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmScanWifi",
+            "formKUID": "b75b7b2b39ad4f009cbf0965b187e449",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

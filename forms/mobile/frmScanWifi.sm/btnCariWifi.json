@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "8%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s1d6deda556b4e0b8c9c24994ba73321",
+    "_text_": "Cari Wifi",
+    "_top_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "70%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sffc81bbb1a84c60ad099dd8e0b9f8d6",
+    "id": "btnCariWifi",
+    "ide_onClick": "AS_Button_f79b6a47fd294fcc89e376eb5930759d",
+    "info": null,
+    "isvisible": true,
+    "kuid": "a2e8f0b9848e45b4bed5a1c56db28a8b",
+    "name": "kony.ui.Button",
+    "parent": "flxIsi",
+    "pf": "frmScanWifi",
+    "wType": "Button",
+    "zindex": 1
+}

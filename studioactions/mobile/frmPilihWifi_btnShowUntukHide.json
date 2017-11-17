@@ -1,0 +1,25 @@
+{
+    "AS_Button_fae37848a0714b639f59b016a262f08d": {
+        "id": "AS_Button_fae37848a0714b639f59b016a262f08d",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmPilihWifi_btnShowUntukHide",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPilihWifiDevice",
+            "type": "forms",
+            "platform": "",
+            "KUID": "h3181737ab644a3fba5491fc60127151"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d3b31fb9c2a7492d9e7274ed9571f7d8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmPilihWifiDevice.txtPassword.text = frmPilihWifiDevice.txtPassText.text;\nfrmPilihWifiDevice.btnHide.setVisibility(true);\nfrmPilihWifiDevice.btnShow.setVisibility(false);\nfrmPilihWifiDevice.txtPassword.setVisibility(true);\nfrmPilihWifiDevice.txtPassText.setVisibility(false);\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

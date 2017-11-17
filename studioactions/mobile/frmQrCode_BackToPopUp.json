@@ -1,0 +1,29 @@
+{
+    "AS_Button_i07c635bcfd34676b19c5380f29b710c": {
+        "id": "AS_Button_i07c635bcfd34676b19c5380f29b710c",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmQrCode_BackToPopUp",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmQrCode",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b69c655da6ca479f96390e77196e1941"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___f1253dbe1f914a909539c2ccfd148ff9",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmPeralatanPopUp",
+            "formKUID": "f0684e641cfd457da003dff9130b7056",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

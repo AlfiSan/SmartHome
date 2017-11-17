@@ -1,0 +1,29 @@
+{
+    "AS_Button_a400fbc7c5b64a66b8dd99571b3fe46e": {
+        "id": "AS_Button_a400fbc7c5b64a66b8dd99571b3fe46e",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmRutinitasSore_Back",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmRutinitasSore",
+            "type": "forms",
+            "platform": null,
+            "KUID": "bf5465d483fe4d5892173b13828e0dec"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___b6ac44c453114a979bc2251a51c3a00b",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmRutinitas",
+            "formKUID": "ef3070c07be641eaa3e85c672d2d5dfe",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

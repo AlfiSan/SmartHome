@@ -1,0 +1,51 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__markedForDelete__": true,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "se95b45ba74c41fdaab152ba15b723dc",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s88e8bc8d26b4a9caa606730fe6b75b4",
+    "id": "btnQrcode",
+    "ide_onClick": "AS_Button_hade7a020d0a40eb9e6fcb17d0c00048",
+    "info": null,
+    "isvisible": true,
+    "kuid": "dbd634b50350426d99bb4516e99f793e",
+    "name": "kony.ui.Button",
+    "parent": "flxQrcode",
+    "pf": "frmPeralatanPopUp",
+    "wType": "Button",
+    "zindex": 1
+}

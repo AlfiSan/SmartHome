@@ -1,0 +1,23 @@
+{
+    "AS_Button_bf75582d02b84fdb93d1703a0dcf78aa": {
+        "id": "AS_Button_bf75582d02b84fdb93d1703a0dcf78aa",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwu26a623b8b87409591f29e66c02b9a6c",
+            "type": "userwidgets",
+            "KUID": "u26a623b8b87409591f29e66c02b9a6c"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__de0c755a62db4530934f8bbf5b7876fe",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmPeralatan.show();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

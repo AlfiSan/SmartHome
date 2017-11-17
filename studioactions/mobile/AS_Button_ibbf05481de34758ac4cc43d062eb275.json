@@ -1,0 +1,28 @@
+{
+    "AS_Button_ibbf05481de34758ac4cc43d062eb275": {
+        "id": "AS_Button_ibbf05481de34758ac4cc43d062eb275",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmRuangan",
+            "type": "forms",
+            "platform": "",
+            "KUID": "iacddfd3515140d4bff0e7795a0b6259"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_i68749dcf09f43a5bb1f1fd273418b5c",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmRuangKeluarga",
+            "formKUID": "ce456290a92342b29711e01d8acbd1e1",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

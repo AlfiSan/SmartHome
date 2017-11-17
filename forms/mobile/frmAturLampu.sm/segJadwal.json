@@ -1,0 +1,210 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__markedForDelete__": true,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "btnSelect": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblIdDevice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Aktif"
+            },
+            "lblJam": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "07.00"
+            },
+            "switchOn": {
+                "@class": "com.viz.ide.model.segment.SelectedIndexSegmentData",
+                "selectedIndex": 0
+            }
+        },
+        {
+            "btnSelect": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblIdDevice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Non Aktif"
+            },
+            "lblJam": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "09.00"
+            },
+            "switchOn": {
+                "@class": "com.viz.ide.model.segment.SelectedIndexSegmentData",
+                "selectedIndex": 1
+            }
+        },
+        {
+            "btnSelect": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblIdDevice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Non Aktif"
+            },
+            "lblJam": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "11.00"
+            },
+            "switchOn": {
+                "@class": "com.viz.ide.model.segment.SelectedIndexSegmentData",
+                "selectedIndex": 1
+            }
+        },
+        {
+            "btnSelect": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblIdDevice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Non Aktif"
+            },
+            "lblJam": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "12.00"
+            },
+            "switchOn": {
+                "@class": "com.viz.ide.model.segment.SelectedIndexSegmentData",
+                "selectedIndex": 1
+            }
+        },
+        {
+            "btnSelect": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblIdDevice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Non Aktif"
+            },
+            "lblJam": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "13.00"
+            },
+            "switchOn": {
+                "@class": "com.viz.ide.model.segment.SelectedIndexSegmentData",
+                "selectedIndex": 1
+            }
+        },
+        {
+            "btnSelect": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblIdDevice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Non Aktif"
+            },
+            "lblJam": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "15.00"
+            },
+            "switchOn": {
+                "@class": "com.viz.ide.model.segment.SelectedIndexSegmentData",
+                "selectedIndex": 1
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "05",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segJadwal",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "isvisible": true,
+    "kuid": "cab22505d7224b49b9330855f220d27e",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxJadwal",
+    "pf": "frmAturLampu",
+    "retainselection": false,
+    "rowTemplateId": "ffcbf2702d0841caa1e8d64b2d7d9c07",
+    "rowcounter": 5,
+    "rowfocusskin": "s35bb095ff5d49438594a63d7001e3e6",
+    "rowskin": "s12a38bff8c348a9905d0fe13ab8191a",
+    "rowtemplate": "flxRowJadwal",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "scb27fdef407427b8d972e52034b3400",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "64646450",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "btnSelect": "btnSelect",
+        "flxNama": "flxNama",
+        "flxRowJadwal": "flxRowJadwal",
+        "lblIdDevice": "lblIdDevice",
+        "lblJam": "lblJam",
+        "switchOn": "switchOn"
+    },
+    "zindex": 1
+}

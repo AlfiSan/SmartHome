@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s1d6deda556b4e0b8c9c24994ba73321",
+    "_text_": "Sambungkan",
+    "_top_": {
+        "type": "string",
+        "value": "15%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "75%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sffc81bbb1a84c60ad099dd8e0b9f8d6",
+    "id": "btnSambung",
+    "ide_onClick": "AS_Button_db7a7ce5e2814a9d8aa55bdad3c0bb0b",
+    "info": null,
+    "isvisible": true,
+    "kuid": "hb12e2f6021744f893b8b2d09079af95",
+    "name": "kony.ui.Button",
+    "parent": "flxIsi",
+    "pf": "frmPilihAlatDariWifi",
+    "wType": "Button",
+    "zindex": 1
+}

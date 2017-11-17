@@ -1,0 +1,49 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s163679de5eb44df94b4567943a2ba64",
+    "_text_": "Cari lagi",
+    "_top_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "75%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s5780a4101724224a66a7ed11a4a2765",
+    "id": "btnCariLagi",
+    "info": null,
+    "isvisible": true,
+    "kuid": "d8d27acd9d2c4fbe88cb4a6cc2926643",
+    "name": "kony.ui.Button",
+    "parent": "flxIsi",
+    "pf": "frmPilihAlatDariWifi",
+    "wType": "Button",
+    "zindex": 1
+}

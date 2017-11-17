@@ -1,0 +1,97 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": "10%",
+    "_left_": "0dp",
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s1422fd614ca45ec8fdadb55f1fb1b04",
+    "_top_": "0dp",
+    "_width_": "100%",
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "Menu": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "f87c8460253543f7bcff308301a4f968",
+                "srcKUID": "c46ac2d2d2cc435f9a676ce58885346d",
+                "wType": "FlexContainer"
+            }
+        },
+        "btnBack": {
+            "__events__": {
+                "ide_onClick": "AS_Button_i07c635bcfd34676b19c5380f29b710c"
+            },
+            "__info__": {
+                "kuid": "g50c2c4cbc4d43bebcb4fdcf2d25541d",
+                "srcKUID": "i1dc9fd2b3c24ffebaff56fb94f4a307",
+                "wType": "Button"
+            }
+        },
+        "flxBack": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fdef8b1e54984d4982932a3489e7dd93",
+                "srcKUID": "cbf7be28ef2d4fe98e0db5ee1471a826",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxGaris": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "de067953992b4e65a81a760655163d4b",
+                "srcKUID": "d39fc69309844368a33da589fac39f19",
+                "wType": "FlexContainer"
+            }
+        },
+        "imgBack": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e9df04e8e9fe4600b6f7d1fb04fdd34d",
+                "srcKUID": "cd284f0a1aed49c291d13fed219105a7",
+                "wType": "Image"
+            }
+        },
+        "lblTitle": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b8adb5e88cb34af6999ece2a1312f876",
+                "srcKUID": "ade16235819f419ebf3e032f9c30440b",
+                "wType": "Label"
+            },
+            "text": "QR Code"
+        }
+    },
+    "id": "Menu",
+    "info": null,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "f87c8460253543f7bcff308301a4f968",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxMain",
+    "pf": "frmQrCode",
+    "sourceUserWidget": "c46ac2d2d2cc435f9a676ce58885346d",
+    "wType": "UserWidgetInstance"
+}

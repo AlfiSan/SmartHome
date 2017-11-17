@@ -1,0 +1,29 @@
+{
+    "AS_Button_d18748ec91354ed89665e0eca1610482": {
+        "id": "AS_Button_d18748ec91354ed89665e0eca1610482",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmPilihWifiDevice_back",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPilihWifiDevice",
+            "type": "forms",
+            "platform": "",
+            "KUID": "h3181737ab644a3fba5491fc60127151"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___d7c77115a4144270a3ab1f11987e80ae",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmPilihAlatDariWifi",
+            "formKUID": "b87f48855ba04f99b919057f3cc11f2f",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

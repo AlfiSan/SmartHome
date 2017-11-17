@@ -1,0 +1,29 @@
+{
+    "AS_Button_ebbc828797d7407db10aa20a942b8009": {
+        "id": "AS_Button_ebbc828797d7407db10aa20a942b8009",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmSerialNumber_backToPopUp",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSerialNumber",
+            "type": "forms",
+            "platform": null,
+            "KUID": "ee0579c54c9342d6b829bdc1815e01a4"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___jd515c27f27c439bbb2e9c33a71cbb50",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmPeralatanPopUp",
+            "formKUID": "f0684e641cfd457da003dff9130b7056",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

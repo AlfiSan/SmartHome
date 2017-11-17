@@ -1,0 +1,29 @@
+{
+    "AS_Button_ceb6548d6ad348499496029bb41238bf": {
+        "id": "AS_Button_ceb6548d6ad348499496029bb41238bf",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmPeralatan_KeLampu",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPeralatan",
+            "type": "forms",
+            "platform": "",
+            "KUID": "g65f0b7610e64ab180be5b38bec542fd"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___a019af0c300447fc85c47caddc9aa73e",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmLampu",
+            "formKUID": "b835e3b48a3b4a83a82cd40caad5fb7f",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

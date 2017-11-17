@@ -1,0 +1,23 @@
+{
+    "AS_Button_ge0f1e1c0ed84e3ab03c27c96b6987f1": {
+        "id": "AS_Button_ge0f1e1c0ed84e3ab03c27c96b6987f1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwu802aca18ee342d0a46361f482276e58",
+            "type": "userwidgets",
+            "KUID": "u802aca18ee342d0a46361f482276e58"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ge2fd40112504023931cc43be746eacb",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmMainMenu.show();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

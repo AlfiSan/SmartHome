@@ -1,0 +1,67 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "__markedForDelete__": true,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "95%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Username",
+    "_skin_": "scd8662435ad44ada95c941aa17107cd",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "android": {
+        "ide_onBeginEditing": "AS_TextField_a08a17f727574c7f838371bffbc38a68",
+        "ide_onEndEditing": "AS_TextField_f821c3bdb807485cabe09491201c9ef1",
+        "onBeginEditing": "AS_TextField_cb33c5b781c44381a4b93ed9e8e45345"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "id": "txtUsername",
+    "ide_onTouchStart": "AS_TextField_a5b914fd74214f28862aae27098f6258",
+    "info": null,
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "dd88962bd55a48f1a171e5614416841d",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "flxUsername",
+    "pf": "frmLogin",
+    "placeholderskin": "sfe668139eb845809e038da266a5f6fe",
+    "securetextentry": false,
+    "textinputmode": "A",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}

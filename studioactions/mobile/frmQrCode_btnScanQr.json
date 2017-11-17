@@ -1,0 +1,25 @@
+{
+    "AS_Button_b991c6ca7ec643bd99ff44debb30d607": {
+        "id": "AS_Button_b991c6ca7ec643bd99ff44debb30d607",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmQrCode_btnScanQr",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmQrCode",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b69c655da6ca479f96390e77196e1941"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a44656209ddb4452b6a458b4beba976a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "function onScanComplete(result){\n  alert(JSON.stringify(result));\n  frmPeralatan.show();\n}\n  qrScan.scanNow(onScanComplete);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

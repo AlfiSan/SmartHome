@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s0498ef3c71346b9bb3c24bc7b60728c",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s0498ef3c71346b9bb3c24bc7b60728c",
+    "id": "btnShow",
+    "ide_onClick": "AS_Button_d0b091294e874aa7bf0d2d050965214d",
+    "info": null,
+    "isvisible": false,
+    "kuid": "eeabff9d2fda46ef8c98ccc3f1c03904",
+    "name": "kony.ui.Button",
+    "parent": "flxCek",
+    "pf": "frmLogin",
+    "wType": "Button",
+    "zindex": 1
+}

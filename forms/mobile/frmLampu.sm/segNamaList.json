@@ -1,0 +1,157 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "btnSelect": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "imgDevice": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblIdDevice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Lampu 1A"
+            },
+            "switchOn": {
+                "@class": "com.viz.ide.model.segment.SelectedIndexSegmentData",
+                "selectedIndex": 0
+            }
+        },
+        {
+            "btnSelect": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "imgDevice": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblIdDevice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Lampu 1B"
+            },
+            "switchOn": {
+                "@class": "com.viz.ide.model.segment.SelectedIndexSegmentData",
+                "selectedIndex": 0
+            }
+        },
+        {
+            "btnSelect": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "imgDevice": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblIdDevice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Lampu 1C"
+            },
+            "switchOn": {
+                "@class": "com.viz.ide.model.segment.SelectedIndexSegmentData",
+                "selectedIndex": 0
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "02",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segNamaList",
+    "ide_onRowClick": "AS_Segment_bd11931ac12f4fa4abb6f4fdc0aee235",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "isvisible": true,
+    "kuid": "fb4668aec9d04b75a42635a8b3ba4dbc",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxIsi",
+    "pf": "frmLampu",
+    "retainselection": false,
+    "rowTemplateId": "g6e4db8327f546d784a5effca474ba15",
+    "rowcounter": 2,
+    "rowfocusskin": "s35bb095ff5d49438594a63d7001e3e6",
+    "rowskin": "sa9dcc8e96594026b52c52db42717a32",
+    "rowtemplate": "flxRowList",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "scb27fdef407427b8d972e52034b3400",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": null,
+    "selectionbehavior": "default",
+    "separatorcolor": "64646449",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "btnSelect": "btnSelect",
+        "flxNama": "flxNama",
+        "flxRowList": "flxRowList",
+        "imgDevice": "imgDevice",
+        "lblIdDevice": "lblIdDevice",
+        "switchOn": "switchOn"
+    },
+    "zindex": 1
+}

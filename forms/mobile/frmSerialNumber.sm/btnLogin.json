@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s1d6deda556b4e0b8c9c24994ba73321",
+    "_text_": "OK",
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sffc81bbb1a84c60ad099dd8e0b9f8d6",
+    "id": "btnLogin",
+    "ide_onClick": "AS_Button_f3ea05c769b7450c81f16e377d1420d4",
+    "info": null,
+    "isvisible": true,
+    "kuid": "fb10ca0c681746b19183be9fd253cccb",
+    "name": "kony.ui.Button",
+    "parent": "flxOk",
+    "pf": "frmSerialNumber",
+    "wType": "Button",
+    "zindex": 1
+}

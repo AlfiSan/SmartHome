@@ -1,0 +1,29 @@
+{
+    "AS_Button_d46dcf03688f4a7ea17eb8ac794d3f1e": {
+        "id": "AS_Button_d46dcf03688f4a7ea17eb8ac794d3f1e",
+        "type": "ACTION_SEQUENCE",
+        "name": "btnLogin_KeFormMain",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a5e1fd40f1274367aaa8a360e0e30ba9"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___a96a160a9a8b42c29f28466f8cabc9d5",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmMainMenu",
+            "formKUID": "i4c641fab1eb4d2091e08fd9a0a1b998",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "AS_Button_d0b091294e874aa7bf0d2d050965214d": {
+        "id": "AS_Button_d0b091294e874aa7bf0d2d050965214d",
+        "type": "ACTION_SEQUENCE",
+        "name": "btnShow_UntukHide",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a5e1fd40f1274367aaa8a360e0e30ba9"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a14bab27f2ff45f58e1d33637cbbda84",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmLogin.txtPassword.text = frmLogin.txtPassText.text;\nfrmLogin.btnHide.setVisibility(true);\nfrmLogin.btnShow.setVisibility(false);\nfrmLogin.txtPassword.setVisibility(true);\nfrmLogin.txtPassText.setVisibility(false);\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

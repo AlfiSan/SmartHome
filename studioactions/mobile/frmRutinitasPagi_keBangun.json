@@ -1,0 +1,29 @@
+{
+    "AS_Button_c693a0b60b9d4d2f96af47a4ffbb89f2": {
+        "id": "AS_Button_c693a0b60b9d4d2f96af47a4ffbb89f2",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmRutinitasPagi_keBangun",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmRutinitasPagi",
+            "type": "forms",
+            "platform": "",
+            "KUID": "da9ac53b732445268fa531b406f0ddbe"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___a275d0f316aa448d998712362701fab9",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmBangunPagi",
+            "formKUID": "b478c6c569e146ff99d8951fb63f89b0",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

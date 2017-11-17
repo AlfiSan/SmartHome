@@ -1,0 +1,98 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": "10%",
+    "_left_": "0dp",
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s1422fd614ca45ec8fdadb55f1fb1b04",
+    "_top_": "0dp",
+    "_width_": "100%",
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "Menu": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "e24a5e2ca6af4a999470c82313c44f20",
+                "srcKUID": "c46ac2d2d2cc435f9a676ce58885346d",
+                "wType": "FlexContainer"
+            }
+        },
+        "btnBack": {
+            "__events__": {
+                "ide_onClick": "AS_Button_d78fd06473544daa8fcc26687102d72e"
+            },
+            "__info__": {
+                "kuid": "bda5510b7f7c4609b3d13b8a5b02f750",
+                "srcKUID": "i1dc9fd2b3c24ffebaff56fb94f4a307",
+                "wType": "Button"
+            }
+        },
+        "flxBack": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e58188e2aaae4058990fde86885ebdf2",
+                "srcKUID": "cbf7be28ef2d4fe98e0db5ee1471a826",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxGaris": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a1e3ac0717c4466cbe078fd62b9558c0",
+                "srcKUID": "d39fc69309844368a33da589fac39f19",
+                "wType": "FlexContainer"
+            }
+        },
+        "imgBack": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "g4223c52835d4507b159d76329654a55",
+                "srcKUID": "cd284f0a1aed49c291d13fed219105a7",
+                "wType": "Image"
+            }
+        },
+        "lblTitle": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "jf9edf4d13324abd964a407b7139d673",
+                "srcKUID": "ade16235819f419ebf3e032f9c30440b",
+                "wType": "Label"
+            },
+            "text": "Lampu"
+        }
+    },
+    "id": "Menu",
+    "info": null,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "e24a5e2ca6af4a999470c82313c44f20",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxMain",
+    "pf": "frmLampu",
+    "snaptogrid": true,
+    "sourceUserWidget": "c46ac2d2d2cc435f9a676ce58885346d",
+    "wType": "UserWidgetInstance"
+}

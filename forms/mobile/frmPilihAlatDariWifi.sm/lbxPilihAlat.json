@@ -1,0 +1,79 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Pilih Alat..",
+    "_skin_": "sa7430ecfdf04b89b7e2c1263f79b9c1",
+    "_top_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "75%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "context": {
+        "channel": "mobile",
+        "formID": "frmPilihAlatDariWifi",
+        "platform": "iphone",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "groupcells": false,
+    "id": "lbxPilihAlat",
+    "info": null,
+    "isvisible": true,
+    "kuid": "d93324ac85544b1d95feacf13180ada0",
+    "masterdata": [
+        [
+            "lb1",
+            "Lampu 1A"
+        ],
+        [
+            "lb2",
+            "Lampu 1B"
+        ],
+        [
+            "lb3",
+            "Lampu 1C"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "parent": "flxIsi",
+    "pf": "frmPilihAlatDariWifi",
+    "selectedkeys": null,
+    "selectedkeyvalue": null,
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox",
+    "zindex": 1
+}

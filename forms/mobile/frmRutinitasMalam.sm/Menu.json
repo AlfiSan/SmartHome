@@ -1,0 +1,101 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": "10%",
+    "_left_": "0dp",
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s1422fd614ca45ec8fdadb55f1fb1b04",
+    "_top_": "0dp",
+    "_width_": "100%",
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "Menu": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "b539b43b0b894d448462993f7e09335c",
+                "srcKUID": "c46ac2d2d2cc435f9a676ce58885346d",
+                "wType": "FlexContainer"
+            }
+        },
+        "btnBack": {
+            "__events__": {
+                "ide_onClick": "AS_Button_c7f2ca9b5cda427dbab3718a4c801a65"
+            },
+            "__info__": {
+                "kuid": "g787acccf79847c9a2400486a3a51655",
+                "srcKUID": "i1dc9fd2b3c24ffebaff56fb94f4a307",
+                "wType": "Button"
+            }
+        },
+        "flxBack": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "gdcc1b45689d4e779be52099265695e5",
+                "srcKUID": "cbf7be28ef2d4fe98e0db5ee1471a826",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxGaris": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ca6415cb44284155aa268f940966eede",
+                "srcKUID": "d39fc69309844368a33da589fac39f19",
+                "wType": "FlexContainer"
+            }
+        },
+        "imgBack": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f05f799fc4fd45fab0413ba3972696d2",
+                "srcKUID": "cd284f0a1aed49c291d13fed219105a7",
+                "wType": "Image"
+            }
+        },
+        "lblTitle": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "cf3db36ace1e47c4ae642494b8075076",
+                "srcKUID": "ade16235819f419ebf3e032f9c30440b",
+                "wType": "Label"
+            },
+            "text": "Rutinitas Malam",
+            "width": {
+                "type": "string",
+                "value": "50%"
+            }
+        }
+    },
+    "id": "Menu",
+    "info": null,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "da90a9cfdabb406bac84c79f9fc033c0",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxMain",
+    "pf": "frmRutinitasMalam",
+    "sourceUserWidget": "c46ac2d2d2cc435f9a676ce58885346d",
+    "wType": "UserWidgetInstance"
+}

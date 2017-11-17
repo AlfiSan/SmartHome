@@ -1,0 +1,29 @@
+{
+    "AS_Button_i64592392d724074baea3039eee51418": {
+        "id": "AS_Button_i64592392d724074baea3039eee51418",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmLampu_btnBack",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAturLampu",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b72b60789134446e9bfa1c0e45e67643"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___ff1ef063cf8244deb99e8fca7506e108",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmLampu",
+            "formKUID": "b835e3b48a3b4a83a82cd40caad5fb7f",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

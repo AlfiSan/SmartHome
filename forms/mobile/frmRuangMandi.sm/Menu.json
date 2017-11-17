@@ -1,0 +1,98 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": "10%",
+    "_left_": "0dp",
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s1422fd614ca45ec8fdadb55f1fb1b04",
+    "_top_": "0dp",
+    "_width_": "100%",
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "Menu": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "d96c6366db374166952f81c3e63da19e",
+                "srcKUID": "c46ac2d2d2cc435f9a676ce58885346d",
+                "wType": "FlexContainer"
+            }
+        },
+        "btnBack": {
+            "__events__": {
+                "ide_onClick": "AS_Button_e14945501370402ab248e819364a6580"
+            },
+            "__info__": {
+                "kuid": "c7ce01b0a1a44f8bb68cce3870fd13eb",
+                "srcKUID": "i1dc9fd2b3c24ffebaff56fb94f4a307",
+                "wType": "Button"
+            }
+        },
+        "flxBack": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "g933da89507d4a868830414cedb71ecc",
+                "srcKUID": "cbf7be28ef2d4fe98e0db5ee1471a826",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxGaris": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c337991048494c97ad5c3bcd7ac22224",
+                "srcKUID": "d39fc69309844368a33da589fac39f19",
+                "wType": "FlexContainer"
+            }
+        },
+        "imgBack": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f861d44e9cf3440692d8bc6ba04005ec",
+                "srcKUID": "cd284f0a1aed49c291d13fed219105a7",
+                "wType": "Image"
+            }
+        },
+        "lblTitle": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e507765320974936a72165d5bca36598",
+                "srcKUID": "ade16235819f419ebf3e032f9c30440b",
+                "wType": "Label"
+            },
+            "text": "Kamar Mandi"
+        }
+    },
+    "id": "Menu",
+    "info": null,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "d0e45960bd4344a5a4174f2a11741ec2",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxMain",
+    "pf": "frmRuangMandi",
+    "snaptogrid": true,
+    "sourceUserWidget": "c46ac2d2d2cc435f9a676ce58885346d",
+    "wType": "UserWidgetInstance"
+}

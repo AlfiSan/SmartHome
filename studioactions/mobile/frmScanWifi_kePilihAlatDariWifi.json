@@ -1,0 +1,29 @@
+{
+    "AS_Button_f79b6a47fd294fcc89e376eb5930759d": {
+        "id": "AS_Button_f79b6a47fd294fcc89e376eb5930759d",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmScanWifi_kePilihAlatDariWifi",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmScanWifi",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b75b7b2b39ad4f009cbf0965b187e449"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___c0eeddb489ed433dbd76d9e72b9cd99c",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmPilihAlatDariWifi",
+            "formKUID": "b87f48855ba04f99b919057f3cc11f2f",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

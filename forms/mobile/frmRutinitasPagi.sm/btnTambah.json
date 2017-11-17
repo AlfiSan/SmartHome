@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__markedForDelete__": true,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "70%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "se95b45ba74c41fdaab152ba15b723dc",
+    "_text_": "",
+    "_width_": {
+        "type": "string",
+        "value": "70%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50.00%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50.08%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s88e8bc8d26b4a9caa606730fe6b75b4",
+    "id": "btnTambah",
+    "info": null,
+    "isvisible": true,
+    "kuid": "c349c5e4378b4f1db7d19a9d235ee6cf",
+    "name": "kony.ui.Button",
+    "parent": "flxTambah",
+    "pf": "frmRutinitasPagi",
+    "wType": "Button",
+    "zindex": 1
+}

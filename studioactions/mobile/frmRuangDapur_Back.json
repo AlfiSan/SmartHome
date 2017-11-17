@@ -1,0 +1,29 @@
+{
+    "AS_Button_d432f2627fea434fbca5ff842b8eeac3": {
+        "id": "AS_Button_d432f2627fea434fbca5ff842b8eeac3",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmRuangDapur_Back",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmRuangDapur",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e79254b514114a5baea002b5dfb33401"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___f5a21305bad442d89cecd404add82432",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmRuangan",
+            "formKUID": "iacddfd3515140d4bff0e7795a0b6259",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

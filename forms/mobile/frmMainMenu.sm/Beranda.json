@@ -1,0 +1,151 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": "0dp",
+    "_children_": [],
+    "_height_": "60dp",
+    "_left_": "0dp",
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "se1f11e7615d460887920f09f083a891",
+    "_width_": "100%",
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "Beranda": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "b2ad7ab9018243d5a602cc1434c7e210",
+                "srcKUID": "ba9b3ab2c89c45caa838bfdb6272f100",
+                "wType": "FlexContainer"
+            }
+        },
+        "btnDevice": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f8024bfbaf834525a7e03df1069afd2e",
+                "srcKUID": "g5c4cc1cb33b4725bd882a2cd5ca2322",
+                "wType": "Button"
+            }
+        },
+        "btnHome": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "cacb26b540904ccb8d5b0685f70e45ca",
+                "srcKUID": "ddebb3351d8744e49023775fc752ab12",
+                "wType": "Button"
+            }
+        },
+        "btnRuang": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a734972bd98f40a19be7c341393e42af",
+                "srcKUID": "bce6da0c8559475895f4ded13a030184",
+                "wType": "Button"
+            }
+        },
+        "btnRutinitas": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fccffa85883c4daa872be3b20b2980b3",
+                "srcKUID": "a1a2a29535eb4c02ab0da4caedb6b465",
+                "wType": "Button"
+            }
+        },
+        "flxDevice": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a26d9ff8cabd45d2943c72d26fb1293f",
+                "srcKUID": "h3a66360131f43d9ba796b63bd810572",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxHome": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f59a294d12d04d09a8235f6227e7315f",
+                "srcKUID": "icb9756ee3534a92945e5c50356ab69c",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxRuang": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j77dd590a3194de0a12a2163363b0b7f",
+                "srcKUID": "fdc9b6d395eb4ee2b5d56d3cbcb8dca8",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxRutinitas": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f8713fc59dd04a39b8be902b2eaed9e0",
+                "srcKUID": "caa60e25aa0044128a5e59c739272590",
+                "wType": "FlexContainer"
+            }
+        },
+        "imgDevice": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e584317f364947bc90868bf702d3fdc5",
+                "srcKUID": "c8499b3acec244e294f3b0d5a67ff132",
+                "wType": "Image"
+            }
+        },
+        "imgHome": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j0dcfe6c58d64f719aae526ced9c1aea",
+                "srcKUID": "jedd262060de4a9f8b76a4f16d9e7745",
+                "wType": "Image"
+            }
+        },
+        "imgRuang": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "dee7bf7c1f8e431483d54637402cc506",
+                "srcKUID": "bf7232682ffe438ab8184a2a38804739",
+                "wType": "Image"
+            }
+        },
+        "imgRutinitas": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e745f7417b944e4fb672071a031b6ec0",
+                "srcKUID": "g1f81291d06c4f31ac26af070a0574d3",
+                "wType": "Image"
+            }
+        }
+    },
+    "id": "Beranda",
+    "info": null,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "b2ad7ab9018243d5a602cc1434c7e210",
+    "layouttype": 3,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "frmMainMenu",
+    "pf": "frmMainMenu",
+    "snaptogrid": true,
+    "sourceUserWidget": "ba9b3ab2c89c45caa838bfdb6272f100",
+    "wType": "UserWidgetInstance"
+}

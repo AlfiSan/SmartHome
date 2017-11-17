@@ -1,0 +1,29 @@
+{
+    "AS_Button_db7a7ce5e2814a9d8aa55bdad3c0bb0b": {
+        "id": "AS_Button_db7a7ce5e2814a9d8aa55bdad3c0bb0b",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmPilihAlarDariWifi_kePeralatan",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPilihAlatDariWifi",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b87f48855ba04f99b919057f3cc11f2f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___cd2c13597b4c4682b203d83adee816e9",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmPilihWifiDevice",
+            "formKUID": "h3181737ab644a3fba5491fc60127151",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

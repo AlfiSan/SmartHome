@@ -1,0 +1,29 @@
+{
+    "AS_Button_h6ae6a66507e48e68bd02a8d1f09b094": {
+        "id": "AS_Button_h6ae6a66507e48e68bd02a8d1f09b094",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmRutinitas_KeMalam",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmRutinitas",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ef3070c07be641eaa3e85c672d2d5dfe"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___e97613d6f11b4954bf19b012ec0d4a6b",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmRutinitasMalam",
+            "formKUID": "jc974fe171544f6c856643ac33055956",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

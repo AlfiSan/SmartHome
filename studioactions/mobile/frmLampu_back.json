@@ -1,0 +1,29 @@
+{
+    "AS_Button_d78fd06473544daa8fcc26687102d72e": {
+        "id": "AS_Button_d78fd06473544daa8fcc26687102d72e",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmLampu_back",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLampu",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b835e3b48a3b4a83a82cd40caad5fb7f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___ba1ce2042b92438faeb83de058d38da6",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmPeralatan",
+            "formKUID": "g65f0b7610e64ab180be5b38bec542fd",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "AS_Button_b85665b192fb4ebfa6b041e8d581ceb5": {
+        "id": "AS_Button_b85665b192fb4ebfa6b041e8d581ceb5",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmAddDevice_Back",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmAddDevice",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d04e548b59e8490ead9272755b3aa38d"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___e102f6e69d914db1964e4804ccde47f6",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmPeralatan",
+            "formKUID": "g65f0b7610e64ab180be5b38bec542fd",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "AS_Segment_bd11931ac12f4fa4abb6f4fdc0aee235": {
+        "id": "AS_Segment_bd11931ac12f4fa4abb6f4fdc0aee235",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmLampu_onRowClick",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmLampu",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b835e3b48a3b4a83a82cd40caad5fb7f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___h9d9c613154d467087c32c3d1931ac54",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmAturLampu",
+            "formKUID": "b72b60789134446e9bfa1c0e45e67643",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "AS_Button_cc1b793a4c474887aeaa8cb7efa6056f": {
+        "id": "AS_Button_cc1b793a4c474887aeaa8cb7efa6056f",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmRutinitasPagi_InfoBangun",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmRutinitasPagi",
+            "type": "forms",
+            "platform": "",
+            "KUID": "da9ac53b732445268fa531b406f0ddbe"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__g6a9d42288ab45a7985abf60763cd577",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmRutinitasPagi.flxPopUpSudah.setVisibility(true);\nfrmRutinitasPagi.Menu.setEnabled(false);\nfrmRutinitasPagi.flxMain.setEnabled(false);\nfrmRutinitasPagi.Rutinitas.setEnabled(false);\n           ",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

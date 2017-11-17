@@ -1,0 +1,102 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": "10%",
+    "_left_": "0dp",
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s1422fd614ca45ec8fdadb55f1fb1b04",
+    "_top_": "0dp",
+    "_width_": "100%",
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "Menu": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "fff0a9ca878e4748838d6e9264958cd1",
+                "srcKUID": "c46ac2d2d2cc435f9a676ce58885346d",
+                "wType": "FlexContainer"
+            }
+        },
+        "btnBack": {
+            "__events__": {
+                "ide_onClick": "AS_Button_jc1e9ace10234670824fd6d11f3d84c8"
+            },
+            "__info__": {
+                "kuid": "b99145a04992431f870a1a604b71215d",
+                "srcKUID": "i1dc9fd2b3c24ffebaff56fb94f4a307",
+                "wType": "Button"
+            }
+        },
+        "flxBack": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ca7aeada6c62425bbebd900f823d6df2",
+                "srcKUID": "cbf7be28ef2d4fe98e0db5ee1471a826",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxGaris": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "b1b2f804c8d34a6d9b6aa318c392c3b4",
+                "srcKUID": "d39fc69309844368a33da589fac39f19",
+                "wType": "FlexContainer"
+            }
+        },
+        "imgBack": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "defe304573e944ce8498384c06548ec6",
+                "srcKUID": "cd284f0a1aed49c291d13fed219105a7",
+                "wType": "Image"
+            }
+        },
+        "lblTitle": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "g28b3d82fc64463db2425601ed5050aa",
+                "srcKUID": "ade16235819f419ebf3e032f9c30440b",
+                "wType": "Label"
+            },
+            "text": "Rutinitas Siang",
+            "width": {
+                "type": "string",
+                "value": "50%"
+            }
+        }
+    },
+    "id": "Menu",
+    "info": null,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "ec05d6ea07974c0ea6b71cf90dc4777d",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxMain",
+    "pf": "frmRutinitasSiang",
+    "snaptogrid": true,
+    "sourceUserWidget": "c46ac2d2d2cc435f9a676ce58885346d",
+    "wType": "UserWidgetInstance"
+}

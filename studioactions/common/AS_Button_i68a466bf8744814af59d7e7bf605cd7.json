@@ -1,0 +1,23 @@
+{
+    "AS_Button_i68a466bf8744814af59d7e7bf605cd7": {
+        "id": "AS_Button_i68a466bf8744814af59d7e7bf605cd7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwu2c425fbc172499abae845215a99afc0",
+            "type": "userwidgets",
+            "KUID": "u2c425fbc172499abae845215a99afc0"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__b55973b06db74e43af688f3c77fff2c5",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "frmRuangan.show();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

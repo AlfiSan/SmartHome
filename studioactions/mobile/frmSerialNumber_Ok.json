@@ -1,0 +1,23 @@
+{
+    "AS_Button_f3ea05c769b7450c81f16e377d1420d4": {
+        "id": "AS_Button_f3ea05c769b7450c81f16e377d1420d4",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmSerialNumber_Ok",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___ac29330e1c07468d821c37cb4449a614",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmPeralatan",
+            "formKUID": "g65f0b7610e64ab180be5b38bec542fd",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}
