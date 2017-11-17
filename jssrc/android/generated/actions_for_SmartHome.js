@@ -143,7 +143,7 @@ function btnLogin_KeFormMain(eventobject) {
 }
 
 function AS_Button_d46dcf03688f4a7ea17eb8ac794d3f1e(eventobject) {
-    frmMainMenu.show();
+    loginUser("agusari@gmail.com", "5ct3lk0m");
 }
 
 function btnShow_UntukHide(eventobject) {
@@ -174,12 +174,28 @@ function AS_Button_j30ce38a62694cedaf591525494d65e8(eventobject) {
     frmRutinitasPagi.show();
 }
 
+function frmLampu_back(eventobject) {
+    return AS_Button_d78fd06473544daa8fcc26687102d72e(eventobject);
+}
+
+function AS_Button_d78fd06473544daa8fcc26687102d72e(eventobject) {
+    frmPeralatan.show();
+}
+
 function frmLampu_btnBack(eventobject) {
     return AS_Button_i64592392d724074baea3039eee51418(eventobject);
 }
 
 function AS_Button_i64592392d724074baea3039eee51418(eventobject) {
-    frmPeralatan.show();
+    frmLampu.show();
+}
+
+function frmLampu_onRowClick(eventobject, sectionNumber, rowNumber) {
+    return AS_Segment_bd11931ac12f4fa4abb6f4fdc0aee235(eventobject, sectionNumber, rowNumber);
+}
+
+function AS_Segment_bd11931ac12f4fa4abb6f4fdc0aee235(eventobject, sectionNumber, rowNumber) {
+    frmAturLampu.show();
 }
 
 function frmMainMenu_KePopUpTambah(eventobject) {
@@ -251,7 +267,7 @@ function frmPilihAlarDariWifi_kePeralatan(eventobject) {
 }
 
 function AS_Button_db7a7ce5e2814a9d8aa55bdad3c0bb0b(eventobject) {
-    frmPilihWifiDevice.show();
+    checkWifi2();
 }
 
 function frmPilihAlatDariWifi_back(eventobject) {
@@ -493,7 +509,7 @@ function frmScanWifi_kePilihAlatDariWifi(eventobject) {
 }
 
 function AS_Button_f79b6a47fd294fcc89e376eb5930759d(eventobject) {
-    frmPilihAlatDariWifi.show();
+    checkWifi();
 }
 
 function frmSerialNumber_backToPopUp(eventobject) {
@@ -510,6 +526,14 @@ function frmSerialNumber_Ok(eventobject) {
 
 function AS_Button_f3ea05c769b7450c81f16e377d1420d4(eventobject) {
     frmPeralatan.show();
+}
+
+function SegListDevice_btnSelect(eventobject, context) {
+    return AS_Button_i0eeef07a45a4b7ebe12d8258dca7893(eventobject, context);
+}
+
+function AS_Button_i0eeef07a45a4b7ebe12d8258dca7893(eventobject, context) {
+    frmAturLampu.show();
 }
 
 function txtPassword_BeginEdit(eventobject, changedtext) {

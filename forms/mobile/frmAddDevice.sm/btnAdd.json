@@ -38,6 +38,7 @@
     "displaytext": true,
     "focusskin": "sfed78bdfc8d41eea6d0338e91d02726",
     "id": "btnAdd",
+    "ide_onClick": "AS_Button_g9cf14d9d7534baa8c6d6b7735845046",
     "info": null,
     "isvisible": true,
     "kuid": "eb9306e8d0a842ea835cfe0f29c0162e",

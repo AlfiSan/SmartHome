@@ -1,14 +1,14 @@
-function initializeSegListDeviceSet() {
-    flxRowList = new kony.ui.FlexContainer({
+function initializeSegListJadwal() {
+    flxRowJadwal = new kony.ui.FlexContainer({
         "autogrowMode": kony.flex.AUTOGROW_NONE,
         "clipBounds": true,
-        "height": "10%",
-        "id": "flxRowList",
+        "height": "25%",
+        "id": "flxRowJadwal",
         "isVisible": true,
         "layoutType": kony.flex.FLOW_HORIZONTAL,
         "skin": "slFbox"
     }, {}, {});
-    flxRowList.setDefaultUnit(kony.flex.DP);
+    flxRowJadwal.setDefaultUnit(kony.flex.DP);
     var flxNama = new kony.ui.FlexContainer({
         "autogrowMode": kony.flex.AUTOGROW_NONE,
         "clipBounds": true,
@@ -19,38 +19,44 @@ function initializeSegListDeviceSet() {
         "left": "0dp",
         "skin": "slFbox",
         "top": "0dp",
-        "width": "60%",
+        "width": "70%",
         "zIndex": 1
     }, {}, {});
     flxNama.setDefaultUnit(kony.flex.DP);
-    var imgDevice = new kony.ui.Image2({
+    var lblJam = new kony.ui.Label({
         "centerY": "50%",
-        "height": "40dp",
-        "id": "imgDevice",
+        "height": "50%",
+        "id": "lblJam",
         "isVisible": true,
         "left": "5%",
-        "skin": "slImage",
-        "src": "imagedrag.png",
-        "width": "40dp",
+        "skin": "sknLbl120HitamReg",
+        "text": "24.00",
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        },
+        "width": "30%",
         "zIndex": 1
     }, {
-        "imageScaleMode": constants.IMAGE_SCALE_MODE_MAINTAIN_ASPECT_RATIO,
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
         "padding": [0, 0, 0, 0],
         "paddingInPixel": false
-    }, {});
+    }, {
+        "textCopyable": false
+    });
     var lblIdDevice = new kony.ui.Label({
         "centerY": "50%",
         "height": "50%",
         "id": "lblIdDevice",
         "isVisible": true,
-        "left": "35%",
+        "left": "40%",
         "skin": "sknLbl120HitamReg",
-        "text": "Lampu",
+        "text": "Lampu Aktif",
         "textStyle": {
             "letterSpacing": 0,
             "strikeThrough": false
         },
-        "width": "65%",
+        "width": "55%",
         "zIndex": 1
     }, {
         "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
@@ -65,7 +71,6 @@ function initializeSegListDeviceSet() {
         "id": "btnSelect",
         "isVisible": true,
         "left": "0dp",
-        "onClick": AS_Button_i0eeef07a45a4b7ebe12d8258dca7893,
         "skin": "sknBtnTransparan",
         "top": "0dp",
         "width": "100%",
@@ -76,22 +81,22 @@ function initializeSegListDeviceSet() {
         "padding": [0, 0, 0, 0],
         "paddingInPixel": false
     }, {});
-    flxNama.add(imgDevice, lblIdDevice, btnSelect);
+    flxNama.add(lblJam, lblIdDevice, btnSelect);
     var switchOn = new kony.ui.Switch({
         "centerY": "50%",
-        "height": "70%",
+        "height": "45%",
         "id": "switchOn",
         "isVisible": true,
-        "left": "6%",
+        "left": "0%",
         "leftSideText": "ON",
         "rightSideText": "OFF",
         "selectedIndex": 0,
         "skin": "sknSwitchMerah",
-        "width": "30%",
+        "width": "28%",
         "zIndex": 1
     }, {
         "padding": [0, 0, 0, 0],
         "paddingInPixel": false
     }, {});
-    flxRowList.add(flxNama, switchOn);
+    flxRowJadwal.add(flxNama, switchOn);
 }

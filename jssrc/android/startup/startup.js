@@ -22,7 +22,9 @@ function appInit(params) {
     initializeUserWidgets();
     initializeFBox0cf76dbb5866d4f();
     initializeSegListDeviceSet();
+    initializeSegListJadwal();
     frmAddDeviceGlobals();
+    frmAturLampuGlobals();
     frmBangunPagiGlobals();
     frmLampuGlobals();
     frmLoginGlobals();

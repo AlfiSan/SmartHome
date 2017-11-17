@@ -389,7 +389,7 @@ function addWidgetsfrmRuangan() {
         "isVisible": true,
         "left": "5%",
         "skin": "lblJudulRuangan",
-        "text": "Ruang Keluarga",
+        "text": "Kamar Manid",
         "textStyle": {
             "letterSpacing": 0,
             "strikeThrough": false

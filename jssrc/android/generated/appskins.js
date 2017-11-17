@@ -2,6 +2,8 @@ function skinsInit() {
     lblJudulRuangan = "lblJudulRuangan";
     seg2Focus = "seg2Focus";
     seg2Normal = "seg2Normal";
+    segTransparan = "segTransparan";
+    skinSliderMerah = "skinSliderMerah";
     sknBtn80MerahReg = "sknBtn80MerahReg";
     sknBtnBorderRoundAbu = "sknBtnBorderRoundAbu";
     sknBtnFokusMenu = "sknBtnFokusMenu";
@@ -15,6 +17,7 @@ function skinsInit() {
     sknBtnRoundWhite = "sknBtnRoundWhite";
     sknBtnShow = "sknBtnShow";
     sknBtnTransparan = "sknBtnTransparan";
+    sknBtnTransparanFokus = "sknBtnTransparanFokus";
     sknBtnTransparanRound = "sknBtnTransparanRound";
     sknFlxBg = "sknFlxBg";
     sknFlxBiruMuda = "sknFlxBiruMuda";
@@ -52,10 +55,12 @@ function skinsInit() {
     sknMerah = "sknMerah";
     sknPlaceHolder100Abu = "sknPlaceHolder100Abu";
     sknShadowPopUp = "sknShadowPopUp";
+    sknSwitchMerah = "sknSwitchMerah";
     sknTxtBox100Hitam = "sknTxtBox100Hitam";
     sknWhiteBorderQr = "sknWhiteBorderQr";
     slButtonGlossBlue = "slButtonGlossBlue";
     slButtonGlossRed = "slButtonGlossRed";
+    slCheckBoxGroup = "slCheckBoxGroup";
     slDynamicNotificationForm = "slDynamicNotificationForm";
     slFbox = "slFbox";
     slForm = "slForm";
@@ -65,7 +70,10 @@ function skinsInit() {
     slLabel = "slLabel";
     slListBox = "slListBox";
     slPopup = "slPopup";
+    slSliderLeftBlue = "slSliderLeftBlue";
+    slSliderRightBlue = "slSliderRightBlue";
     slStaticNotificationForm = "slStaticNotificationForm";
+    slSwitch = "slSwitch";
     slTextBox = "slTextBox";
     slTitleBar = "slTitleBar";
     slWatchForm = "slWatchForm";

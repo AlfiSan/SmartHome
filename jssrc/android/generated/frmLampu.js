@@ -14,15 +14,6 @@ function addWidgetsfrmLampu() {
         "zIndex": 1
     }, {}, {});
     flxMain.setDefaultUnit(kony.flex.DP);
-    var Devices = new NavMenu.Devices({
-        "autogrowMode": kony.flex.AUTOGROW_NONE,
-        "clipBounds": true,
-        "id": "Devices",
-        "isVisible": true,
-        "layoutType": kony.flex.FLOW_HORIZONTAL,
-        "masterType": constants.MASTER_TYPE_DEFAULT,
-        "skin": "sknFlxMerah"
-    }, {}, {});
     var Menu = new FlxTitleBack.Menu({
         "autogrowMode": kony.flex.AUTOGROW_NONE,
         "clipBounds": true,
@@ -32,7 +23,7 @@ function addWidgetsfrmLampu() {
         "masterType": constants.MASTER_TYPE_DEFAULT,
         "skin": "sknFlxPutihTitleBorder"
     }, {}, {});
-    Menu.btnBack.onClick = AS_Button_i64592392d724074baea3039eee51418;
+    Menu.btnBack.onClick = AS_Button_d78fd06473544daa8fcc26687102d72e;
     Menu.lblTitle.text = "Lampu";
     var flxIsi = new kony.ui.FlexContainer({
         "autogrowMode": kony.flex.AUTOGROW_NONE,
@@ -40,7 +31,7 @@ function addWidgetsfrmLampu() {
         "clipBounds": true,
         "id": "flxIsi",
         "isVisible": true,
-        "layoutType": kony.flex.FLOW_VERTICAL,
+        "layoutType": kony.flex.FREE_FORM,
         "left": "0dp",
         "skin": "slFbox",
         "top": "10%",
@@ -48,86 +39,77 @@ function addWidgetsfrmLampu() {
         "zIndex": 1
     }, {}, {});
     flxIsi.setDefaultUnit(kony.flex.DP);
-    var flxGambar = new kony.ui.FlexContainer({
+    var segNamaList = new kony.ui.SegmentedUI2({
         "autogrowMode": kony.flex.AUTOGROW_NONE,
-        "clipBounds": true,
-        "height": "50%",
-        "id": "flxGambar",
+        "data": [{
+            "btnSelect": "",
+            "imgDevice": "imagedrag.png",
+            "lblIdDevice": "Lampu 1A",
+            "switchOn": {
+                "selectedIndex": 0
+            }
+        }, {
+            "btnSelect": "",
+            "imgDevice": "imagedrag.png",
+            "lblIdDevice": "Lampu 1B",
+            "switchOn": {
+                "selectedIndex": 0
+            }
+        }, {
+            "btnSelect": "",
+            "imgDevice": "imagedrag.png",
+            "lblIdDevice": "Lampu 1C",
+            "switchOn": {
+                "selectedIndex": 0
+            }
+        }],
+        "groupCells": false,
+        "height": "100%",
+        "id": "segNamaList",
         "isVisible": true,
-        "layoutType": kony.flex.FREE_FORM,
         "left": "0dp",
-        "skin": "slFbox",
-        "top": "5%",
+        "needPageIndicator": true,
+        "onRowClick": AS_Segment_bd11931ac12f4fa4abb6f4fdc0aee235,
+        "pageOffDotImage": "pageoffdot.png",
+        "pageOnDotImage": "pageondot.png",
+        "retainSelection": false,
+        "rowFocusSkin": "seg2Focus",
+        "rowSkin": "segTransparan",
+        "rowTemplate": flxRowList,
+        "scrollingEvents": {},
+        "sectionHeaderSkin": "sliPhoneSegmentHeader",
+        "selectionBehavior": constants.SEGUI_DEFAULT_BEHAVIOR,
+        "separatorColor": "64646449",
+        "separatorRequired": true,
+        "separatorThickness": 1,
+        "showScrollbars": false,
+        "top": "0dp",
+        "viewType": constants.SEGUI_VIEW_TYPE_TABLEVIEW,
+        "widgetDataMap": {
+            "btnSelect": "btnSelect",
+            "flxNama": "flxNama",
+            "flxRowList": "flxRowList",
+            "imgDevice": "imgDevice",
+            "lblIdDevice": "lblIdDevice",
+            "switchOn": "switchOn"
+        },
         "width": "100%",
         "zIndex": 1
-    }, {}, {});
-    flxGambar.setDefaultUnit(kony.flex.DP);
-    var imgLampu = new kony.ui.Image2({
-        "centerX": "50%",
-        "centerY": "50%",
-        "height": "200dp",
-        "id": "imgLampu",
-        "isVisible": true,
-        "skin": "slImage",
-        "src": "ic_lampuon.png",
-        "width": "200dp",
-        "zIndex": 1
     }, {
-        "imageScaleMode": constants.IMAGE_SCALE_MODE_FIT_TO_DIMENSIONS,
         "padding": [0, 0, 0, 0],
         "paddingInPixel": false
     }, {});
-    flxGambar.add(imgLampu);
-    var flxButton = new kony.ui.FlexContainer({
+    flxIsi.add(segNamaList);
+    var Devices = new NavMenu.Devices({
         "autogrowMode": kony.flex.AUTOGROW_NONE,
-        "centerX": "50%",
         "clipBounds": true,
-        "height": "10%",
-        "id": "flxButton",
+        "id": "Devices",
         "isVisible": true,
         "layoutType": kony.flex.FLOW_HORIZONTAL,
-        "skin": "slFbox",
-        "top": "5%",
-        "width": "90%",
-        "zIndex": 1
+        "masterType": constants.MASTER_TYPE_DEFAULT,
+        "skin": "sknFlxMerah"
     }, {}, {});
-    flxButton.setDefaultUnit(kony.flex.DP);
-    var btnTurnOn = new kony.ui.Button({
-        "centerY": "50%",
-        "height": "75%",
-        "id": "btnTurnOn",
-        "isVisible": true,
-        "left": "3%",
-        "skin": "sknBtnMerahGradient",
-        "text": "Turn On",
-        "width": "45%",
-        "zIndex": 1
-    }, {
-        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
-        "displayText": true,
-        "padding": [0, 0, 0, 0],
-        "paddingInPixel": false
-    }, {});
-    var btnAturWaktu = new kony.ui.Button({
-        "centerY": "50%",
-        "focusSkin": "sknBtnRoundFocusAbu",
-        "height": "75%",
-        "id": "btnAturWaktu",
-        "isVisible": true,
-        "left": "5%",
-        "skin": "sknBtnRoundWhite",
-        "text": "Atur Waktu",
-        "width": "45%",
-        "zIndex": 1
-    }, {
-        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
-        "displayText": true,
-        "padding": [0, 0, 0, 0],
-        "paddingInPixel": false
-    }, {});
-    flxButton.add(btnTurnOn, btnAturWaktu);
-    flxIsi.add(flxGambar, flxButton);
-    flxMain.add(Devices, Menu, flxIsi);
+    flxMain.add(Menu, flxIsi, Devices);
     frmLampu.add(flxMain);
 };
 
