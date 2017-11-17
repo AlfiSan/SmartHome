@@ -15,15 +15,11 @@
         },
         "language": "js",
         "actions": [{
-            "id": "NAVIGATE_TO_FORM___c0eeddb489ed433dbd76d9e72b9cd99c",
-            "type": "NAVIGATE_TO_FORM",
-            "formId": "frmPilihAlatDariWifi",
-            "formKUID": "b87f48855ba04f99b919057f3cc11f2f",
-            "mappings": {},
-            "mappingsOrder": [],
-            "parentId": "",
-            "callbackType": null,
-            "enableMappingEditor": true
+            "id": "ADD_SNIPPET__cbb23acd263244b1894ae782317c9dc9",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "checkWifi();",
+            "parentId": null,
+            "callbackType": null
         }]
     }
 }

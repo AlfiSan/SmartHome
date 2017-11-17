@@ -7,8 +7,8 @@
     "apppackagekey": "",
     "nativeContainerProperties": {
         "isModified": false,
-        "isEnableJSContainer": false,
-        "isEnableJSContainerAndroid": false,
+        "isEnableJSContainer": true,
+        "isEnableJSContainerAndroid": true,
         "isEnableJSContaineriOS": false
     },
     "wap_android400_fontsize": "12",
@@ -226,5 +226,8 @@
     "project_version": "sprint27",
     "wap_ip_fontsize": "12",
     "category": "app",
-    "createdVizVersion": "7.3.0"
+    "createdVizVersion": "7.3.0",
+    "mfappguid": {
+        "7fcbae4b-6a48-4121-9ad0-5492a3c4f086": "2792e84f-7495-4851-9a6e-4e90d3643fda"
+    }
 }

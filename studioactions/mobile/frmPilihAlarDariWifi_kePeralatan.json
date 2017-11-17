@@ -15,15 +15,11 @@
         },
         "language": "js",
         "actions": [{
-            "id": "NAVIGATE_TO_FORM___cd2c13597b4c4682b203d83adee816e9",
-            "type": "NAVIGATE_TO_FORM",
-            "formId": "frmPilihWifiDevice",
-            "formKUID": "h3181737ab644a3fba5491fc60127151",
-            "mappings": {},
-            "mappingsOrder": [],
-            "parentId": "",
-            "callbackType": null,
-            "enableMappingEditor": true
+            "id": "ADD_SNIPPET__fc0f86b3e4b145e8887e7bebc28bb199",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "checkWifi2();",
+            "parentId": null,
+            "callbackType": null
         }]
     }
 }

@@ -3,5 +3,5 @@ function btnLogin_KeFormMain(eventobject) {
 }
 
 function AS_Button_d46dcf03688f4a7ea17eb8ac794d3f1e(eventobject) {
-    frmMainMenu.show();
+    loginUser("agusari@gmail.com", "5ct3lk0m");
 }

@@ -1,6 +1,39 @@
 {
     "NativeFunctionAPI": {
         "iOS": {},
-        "Android": {}
+        "Android": {
+            "API level 23": {
+                "android.content-Android-API level 23": {
+                    "title": "android.content",
+                    "platform": "Android",
+                    "os": "API level 23",
+                    "url": "/visualizer/nativeframeworks/android/1.0/android.content-Android-4.0.zip",
+                    "checksum": "3ce60c47b75c2ad0dc7449d6b43c2842d2b6f103",
+                    "projectName": "testNative",
+                    "filepath": "C:\\Users\\asus\\KonyVizEWS\\SmartHome\\nativebindings\\Android\\API level 23\\android.content-Android-4.0.zip",
+                    "enable": true
+                },
+                "android.net.wifi-Android-API level 23": {
+                    "title": "android.net.wifi",
+                    "platform": "Android",
+                    "os": "API level 23",
+                    "url": "/visualizer/nativeframeworks/android/1.0/android.net.wifi-Android-4.0.zip",
+                    "checksum": "a6159564a597c0fec7623d5229a00861fba1ccbd",
+                    "projectName": "testNative",
+                    "filepath": "C:\\Users\\asus\\KonyVizEWS\\SmartHome\\nativebindings\\Android\\API level 23\\android.net.wifi-Android-4.0.zip",
+                    "enable": true
+                },
+                "java.util-Android-API level 23": {
+                    "title": "java.util",
+                    "platform": "Android",
+                    "os": "API level 23",
+                    "url": "/visualizer/nativeframeworks/android/1.0/java.util-Android-4.0.zip",
+                    "checksum": "a365483103a0476fcc989a4f2db0cb604ce6b21d",
+                    "projectName": "testNative",
+                    "filepath": "C:\\Users\\asus\\KonyVizEWS\\SmartHome\\nativebindings\\Android\\API level 23\\java.util-Android-4.0.zip",
+                    "enable": true
+                }
+            }
+        }
     }
 }
