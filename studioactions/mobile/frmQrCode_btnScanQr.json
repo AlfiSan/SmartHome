@@ -17,7 +17,7 @@
         "actions": [{
             "id": "ADD_SNIPPET__a44656209ddb4452b6a458b4beba976a",
             "type": "ADD_SNIPPET",
-            "codeSnippet": "function onScanComplete(result){\n  alert(JSON.stringify(result));\n  frmPeralatan.show();\n}\n  qrScan.scanNow(onScanComplete);",
+            "codeSnippet": "function onScanComplete(result){\n  PopAlert(true,\"Result\",JSON.stringify(result));\n//   alert(JSON.stringify(result));\n  frmPeralatan.show();\n}\n  qrScan.scanNow(onScanComplete);",
             "parentId": null,
             "callbackType": null
         }]

@@ -60,7 +60,7 @@ function addWidgetsfrmAddDevice() {
         "isVisible": true,
         "right": "8%",
         "skin": "slImage",
-        "src": "ic_plusijo.png",
+        "src": "ic_plusmerah.png",
         "width": "80dp",
         "zIndex": 2
     }, {
@@ -74,6 +74,7 @@ function addWidgetsfrmAddDevice() {
         "id": "btnAdd",
         "isVisible": true,
         "left": "0dp",
+        "onClick": AS_Button_g9cf14d9d7534baa8c6d6b7735845046,
         "skin": "sknBtnTransparan",
         "top": "0dp",
         "width": "100%",

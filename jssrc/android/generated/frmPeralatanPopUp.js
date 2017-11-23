@@ -345,7 +345,7 @@ function addWidgetsfrmPeralatanPopUp() {
         "id": "imgScan",
         "isVisible": true,
         "skin": "slImage",
-        "src": "ic_serial.png",
+        "src": "ic_gateway.png",
         "width": "60dp",
         "zIndex": 1
     }, {
@@ -394,6 +394,7 @@ function addWidgetsfrmPeralatanPopUp() {
         "id": "btnScan",
         "isVisible": true,
         "left": "0dp",
+        "onClick": AS_Button_aaed6ceab9b640debc4e7ccfa52569b5,
         "skin": "sknBtnTransparan",
         "top": "0dp",
         "width": "100%",

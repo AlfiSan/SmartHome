@@ -49,7 +49,7 @@
     "enablescrolling": true,
     "id": "flxJendela",
     "info": null,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "d5e14a5ec70a4d24b3169bec80cac26a",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",

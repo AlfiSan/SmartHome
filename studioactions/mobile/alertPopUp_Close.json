@@ -1,0 +1,25 @@
+{
+    "AS_Button_a13c27371a3040f28e9b78db3de968a2": {
+        "id": "AS_Button_a13c27371a3040f28e9b78db3de968a2",
+        "type": "ACTION_SEQUENCE",
+        "name": "alertPopUp_Close",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "alertPopUp",
+            "type": "popups",
+            "platform": "",
+            "KUID": "b48b6948551f46df8a1d04f111562f28"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ib3e1c5359ab4a3c85b095a830b01b4e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "PopAlert(false, \"\", \"\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

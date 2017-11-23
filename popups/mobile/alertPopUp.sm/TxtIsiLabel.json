@@ -1,0 +1,51 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "_margin_": [
+        1,
+        10,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s2d90a225ff442999d127d0a456773fc",
+    "_text_": "Isi Alert ",
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "hexpand": true,
+    "id": "TxtIsiLabel",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isvisible": true,
+    "kuid": "dc6b87007d9d4c6c8d3bf7cbc8265354",
+    "margininpixel": false,
+    "name": "kony.ui.Label",
+    "parent": "alertPopUp",
+    "pf": "alertPopUp",
+    "tooltip": "",
+    "vexpand": true,
+    "wType": "Label",
+    "widgetalignment": 5
+}

@@ -548,7 +548,12 @@
     <attributes name="Videos_Library_Access" value="true"/>
     <attributes name="wp8enforceMaxMemory" value="false"/>
     <attributes name="wp10codeGeneration" value="false"/>
-    <attributes name="build" value="debug"/>
+    <attributes name="build" value="release"/>
     <attributes name="spaandroidtab800basefontsize" value="12"/>
+    <attributes name="cloud_url" value="https://kony.dimma.id:443/admin"/>
+    <attributes name="cloud_env_name" value="KonyAccount-DIMMA"/>
+    <attributes name="cloud_env_GUID" value="2be5bf92-fb8f-46f8-9a44-409f2fdf54b2"/>
+    <attributes name="cloud_account_id" value="100000002"/>
+    <attributes name="cloud_account_guid" value="7fcbae4b-6a48-4121-9ad0-5492a3c4f086"/>
     <attributes name="defaultlocalekey" value=""/>
 </properties>

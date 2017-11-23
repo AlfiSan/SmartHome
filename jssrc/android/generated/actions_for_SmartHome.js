@@ -49,6 +49,14 @@ function AS_Button_j0eee3501abc45079c7d787726d161b0(eventobject) {
     frmMainMenu.show();
 }
 
+function alertPopUp_Close(eventobject) {
+    return AS_Button_a13c27371a3040f28e9b78db3de968a2(eventobject);
+}
+
+function AS_Button_a13c27371a3040f28e9b78db3de968a2(eventobject) {
+    PopAlert(false, "", "");
+}
+
 function AS_Button_ab255b3c977d496b9d930501ab4d1f3c(eventobject) {
     frmRuangDapur.show();
 }
@@ -166,6 +174,14 @@ function AS_Button_b85665b192fb4ebfa6b041e8d581ceb5(eventobject) {
     frmPeralatan.show();
 }
 
+function frmAddDevice_btnAdd(eventobject) {
+    return AS_Button_g9cf14d9d7534baa8c6d6b7735845046(eventobject);
+}
+
+function AS_Button_g9cf14d9d7534baa8c6d6b7735845046(eventobject) {
+    frmPeralatanPopUp.show();
+}
+
 function frmBangunPagi_Back(eventobject) {
     return AS_Button_j30ce38a62694cedaf591525494d65e8(eventobject);
 }
@@ -212,6 +228,14 @@ function frmMain_kePagi(eventobject) {
 
 function AS_Button_ead41d66366f40fe91a6b674ea059f03(eventobject) {
     frmRutinitasPagi.show();
+}
+
+function frmPeralatanPopUp_btnGateway(eventobject) {
+    return AS_Button_aaed6ceab9b640debc4e7ccfa52569b5(eventobject);
+}
+
+function AS_Button_aaed6ceab9b640debc4e7ccfa52569b5(eventobject) {
+    PopAlert(true, "Alert", "Menu masih pengembangan");
 }
 
 function frmPeralatanPopUp_Keluar(eventobject) {
@@ -324,7 +348,8 @@ function frmQrCode_btnScanQr(eventobject) {
 
 function AS_Button_b991c6ca7ec643bd99ff44debb30d607(eventobject) {
     function onScanComplete(result) {
-        alert(JSON.stringify(result));
+        PopAlert(true, "Result", JSON.stringify(result));
+        //   alert(JSON.stringify(result));
         frmPeralatan.show();
     }
     qrScan.scanNow(onScanComplete);

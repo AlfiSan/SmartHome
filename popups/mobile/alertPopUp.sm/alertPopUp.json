@@ -1,0 +1,69 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizForm",
+    "DNDConfig": null,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s27d180b68c3470e89e179f255077a11",
+    "_title_": null,
+    "addWidgetsdone": false,
+    "allboxes": [],
+    "android": {
+        "psp": {
+            "windowSoftInputMode": 2
+        }
+    },
+    "canUpdateUI": true,
+    "children": [
+        "lblTitle",
+        "linePopUp",
+        "TxtIsiLabel",
+        "btnOk"
+    ],
+    "containerheight": 0,
+    "containerheightreference": 1,
+    "containerweight": 80,
+    "currentLocale": "default",
+    "desktopweb": {
+        "psp": {
+            "titleBarConfig": {
+                "closeIcon": "close.png",
+                "maxIcon": "max.png",
+                "minIcon": "min.png"
+            }
+        }
+    },
+    "device": "GalaxyS5",
+    "displayorientation": 3,
+    "enabledforidletimeout": false,
+    "footeroverlap": false,
+    "id": "alertPopUp",
+    "info": null,
+    "initdone": false,
+    "inputaccessoryviewtype": 4,
+    "invokedProperty": "footers",
+    "ismodal": false,
+    "isvisible": true,
+    "kuid": "b48b6948551f46df8a1d04f111562f28",
+    "name": "kony.ui.Popup",
+    "paddinginpixel": false,
+    "platform": "android",
+    "prevDevice": "iPhone5",
+    "prevPlatform": "iphone",
+    "retainscrollposition": false,
+    "shellCSS": "and_GalaxyS5",
+    "titlebar": true,
+    "transparencybehindthepopup": 70,
+    "wType": "Popup"
+}

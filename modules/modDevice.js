@@ -167,6 +167,21 @@ function createFlexDevice(each,title,gambar){
         "zIndex": 1
     }, {}, {});
     flxKat1.setDefaultUnit(kony.flex.DP);
+//   	var flxGarisKanan = new kony.ui.FlexContainer({
+//         "autogrowMode": kony.flex.AUTOGROW_NONE,
+//         "clipBounds": true,
+//         "height": "100%",
+//         "id": "flxGarisKanan" + each,
+//         "isVisible": true,
+//         "layoutType": kony.flex.FREE_FORM,
+//         "right": "0dp",
+//         "skin": "sknFlxGaris15Persen",
+//         "top": "0dp",
+//         "width": "3dp",
+//         "zIndex": 1
+//     }, {}, {});
+//     flxGarisKanan.setDefaultUnit(kony.flex.DP);
+//     flxGarisKanan.add();
   	//lblRuang
   	var lblRuang = new kony.ui.Label({
         "id": "lblTitle" + each,
@@ -179,13 +194,44 @@ function createFlexDevice(each,title,gambar){
       	"centerX":"45%",
         "zIndex": 1
     }, {
-        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
         "padding": [0, 0, 0, 0],
         "paddingInPixel": false
     }, {
         "renderAsAnchor": false,
         "textCopyable": false
     });
+//   var flxGarisBawah = new kony.ui.FlexContainer({
+//         "autogrowMode": kony.flex.AUTOGROW_NONE,
+//         "bottom": "0dp",
+//         "clipBounds": true,
+//         "height": "3dp",
+//         "id": "flxGarisBawah" + each,
+//         "isVisible": true,
+//         "layoutType": kony.flex.FREE_FORM,
+//         "left": "0dp",
+//         "skin": "sknFlxGaris18Persen",
+//         "width": "100%",
+//         "zIndex": 1
+//     }, {}, {});
+//     flxGarisBawah.setDefaultUnit(kony.flex.DP);
+//     flxGarisBawah.add();
+  	var btnOn = new kony.ui.Button({
+        "focusSkin": "sknBtnFokusMerah",
+        "height": "100%",
+        "id": "btnOn" + each,
+        "isVisible": true,
+        "left": "0dp",
+        "skin": "sknBtnTransparan",
+        "top": "0dp",
+        "width": "100%",
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
   	var imgDev1 = new kony.ui.Image2({
         "centerY": "40%",
       	"centerX": "50%",

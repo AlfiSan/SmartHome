@@ -51,9 +51,13 @@ function skinsInit() {
     sknLblHitam80Reg = "sknLblHitam80Reg";
     sknLblMerah100Medium = "sknLblMerah100Medium";
     sknLblMerah150Bold = "sknLblMerah150Bold";
+    sknLblPutih120Bold = "sknLblPutih120Bold";
+    sknLblPutih120Reg = "sknLblPutih120Reg";
     sknLbx100Hitam = "sknLbx100Hitam";
+    sknLinePopUp = "sknLinePopUp";
     sknMerah = "sknMerah";
     sknPlaceHolder100Abu = "sknPlaceHolder100Abu";
+    sknPopUp = "sknPopUp";
     sknShadowPopUp = "sknShadowPopUp";
     sknSwitchMerah = "sknSwitchMerah";
     sknTxtBox100Hitam = "sknTxtBox100Hitam";
@@ -68,6 +72,7 @@ function skinsInit() {
     slImage = "slImage";
     sliPhoneSegmentHeader = "sliPhoneSegmentHeader";
     slLabel = "slLabel";
+    slLine = "slLine";
     slListBox = "slListBox";
     slPopup = "slPopup";
     slSliderLeftBlue = "slSliderLeftBlue";

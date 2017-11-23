@@ -1,0 +1,25 @@
+{
+    "AS_Button_aaed6ceab9b640debc4e7ccfa52569b5": {
+        "id": "AS_Button_aaed6ceab9b640debc4e7ccfa52569b5",
+        "type": "ACTION_SEQUENCE",
+        "name": "frmPeralatanPopUp_btnGateway",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmPeralatanPopUp",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f0684e641cfd457da003dff9130b7056"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ca06183a72574e1099c35917799deb18",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "PopAlert(true, \"Alert\", \"Menu masih pengembangan\");",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}
